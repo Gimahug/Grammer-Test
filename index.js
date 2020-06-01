@@ -99,7 +99,7 @@ request.onload=function(){
             option1.style.backgroundColor="white";
             option2.style.backgroundColor="white";
 
-            schedule.textContent=jsonObj["count"]+"/20";
+            schedule.textContent=jsonObj["count"]+"/"+questions.length;
             sentence.textContent=jsonObj["sentence"];
             let array=jsonObj["options"].split(',');
             option1.textContent=array[0];
