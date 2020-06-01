@@ -1,0 +1,210 @@
+html{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    
+    margin: 0,auto;
+    background-color: rgba(128, 128, 128, 0.1);
+    font-size: 1.2rem;
+
+}
+
+.schedule{
+    box-sizing: border-box;
+    margin-top: 30%;
+    text-align: center;
+}
+.sentence{
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 12%;
+    margin-bottom: 35%;
+    display: block;
+   
+    
+}
+span{
+    display: none;
+}
+.analysis{
+    box-sizing: border-box;
+   
+    margin-top: 12%;
+    margin-bottom: 35%;
+    text-align: center;
+}
+.analysis p{
+    display: none;
+}
+button{
+    box-sizing: border-box;
+    display: block;
+    font-size: 1.2rem;
+   
+}
+.option, .readAnswer, .next, .again{
+    box-sizing: border-box;
+    border: 1px solid #000;
+    width: 40%;
+    margin: auto;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom: 5%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+}
+
+
+.readAnswer{
+    background-color:rgba(90, 87, 87,0.5);
+}
+
+.next, .again{
+    display: none;
+    
+}
+.next{
+    background-color: green;
+}
+.again{
+    background-color: pink;
+}
+
+.summary{
+    box-sizing: border-box;
+    text-align: center;
+    display: none;
+}
+
+
+
+
+
+@media screen and (min-width: 700px){
+    body{
+        font-size: 2rem;
+    }
+    button{
+        font-size: 2rem;
+    }
+
+    .schedule{
+  
+        margin-top: 25%;
+    
+    }
+
+    .sentence{
+  
+        margin-top: 7%;
+        margin-bottom: 20%;
+   
+    }
+
+    .analysis{
+         
+        margin-top: 7%;
+        margin-bottom: 20%;
+     
+    }
+
+    .option, .readAnswer, .next, .again{
+
+        width: 30%;
+ 
+        padding-top: 2%;
+        padding-bottom: 2%;
+        margin-bottom: 5%;
+     
+    }
+
+}
+
+
+@media screen and (min-width: 822px){
+    body{
+        font-size: 1.7rem;
+    }
+    button{
+        font-size: 1.7rem;
+    }
+
+    .schedule{
+  
+        margin-top: 10%;
+    
+    }
+
+    .sentence{
+  
+        margin-top: 5%;
+        margin-bottom: 12%;
+   
+    }
+
+    .analysis{
+         
+        margin-top: 5%;
+        margin-bottom: 12%;
+     
+    }
+
+    .option, .readAnswer, .next, .again{
+
+        width: 30%;
+ 
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-bottom: 3%;
+     
+    }
+
+    
+
+}
+
+
+@media screen and (min-width: 1400px){
+    body{
+        font-size: 1.7rem;
+    }
+    button{
+        font-size: 1.7rem;
+    }
+
+    .schedule{
+  
+        margin-top: 60px;
+    
+    }
+
+    .sentence{
+  
+        margin-top: 40px;
+        margin-bottom: 150px;
+   
+    }
+
+    .analysis{
+         
+        margin-top: 40px;
+        margin-bottom: 150px;
+     
+    }
+
+    .option, .readAnswer, .next, .again{
+
+        width: 250px;
+ 
+        padding-top: 1.5%;
+        padding-bottom: 1.5%;
+        margin-bottom: 3%;
+     
+    }
+}
+
+
+
+
